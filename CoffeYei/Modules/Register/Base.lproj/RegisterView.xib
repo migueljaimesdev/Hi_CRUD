@@ -65,7 +65,7 @@
                         <constraint firstItem="jHl-3V-1GN" firstAttribute="leading" secondItem="hpl-l2-HYy" secondAttribute="leading" id="shP-TQ-wI0"/>
                     </constraints>
                 </stackView>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bottomImage" translatesAutoresizingMaskIntoConstraints="NO" id="auL-Lw-Ljl">
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bottomImage" translatesAutoresizingMaskIntoConstraints="NO" id="auL-Lw-Ljl">
                     <rect key="frame" x="0.0" y="771" width="414" height="125"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="125" id="0lE-lC-ngB"/>

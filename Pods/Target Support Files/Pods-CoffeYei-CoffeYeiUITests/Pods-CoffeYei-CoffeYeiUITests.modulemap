@@ -1,6 +1,0 @@
-framework module Pods_CoffeYei_CoffeYeiUITests {
-  umbrella header "Pods-CoffeYei-CoffeYeiUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}

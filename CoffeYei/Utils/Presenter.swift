@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+protocol Presenter {
+    associatedtype T
+    var output: T { get set }
+}

@@ -15,7 +15,7 @@ class WelcomeRouter: PresenterToRouterWelcomeProtocol {
     // MARK: Static methods
     static func createModule() -> UIViewController { WelcomeViewController() }
     
-    //static func loginViewController() -> UIViewController { LoginViewController() }
+    static func loginViewController() -> UIViewController { LoginViewController() }
     
     //static func registerViewController() -> UIViewController { RegisterViewController() }
 }

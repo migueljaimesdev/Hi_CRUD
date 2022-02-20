@@ -12,26 +12,3 @@ protocol Interactor {
     var output: T { get set }
 }
 
-protocol Presenter {
-    associatedtype T
-    var output: T { get set }
-}
-
-struct LocalizableString {
-    var key: String
-    
-    init(_ key: String) {
-        self.key = key
-    }
-    
-    func resolve() -> String {
-        NSLocalizedString(key, comment: "")
-    }
-}
-
-extension LocalizableString: ExpressibleByStringLiteral {
-    init(stringLiteral value: StringLiteralType) {
-        key = value
-    }
-}
-

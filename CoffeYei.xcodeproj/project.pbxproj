@@ -7,7 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A34F07E527C27B8300D52FA8 /* WelcomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A34F07E427C27B8300D52FA8 /* WelcomeView.xib */; };
+		0D73BF9C4DA9C926B908D89D /* Pods_CoffeYeiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30B6FF4D1F64E8ACBA15E7C5 /* Pods_CoffeYeiTests.framework */; };
+		89F0A9167DA3AEDECDF18DDE /* Pods_CoffeYei.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8A60890667DE13543A6F69 /* Pods_CoffeYei.framework */; };
+		9FB42F48F7EE5BF0831F4026 /* Pods_CoffeYei_CoffeYeiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E46FE76535CD5026555FCD0C /* Pods_CoffeYei_CoffeYeiUITests.framework */; };
+		A34F07E627C28DD500D52FA8 /* WelcomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A34F07E827C28DD500D52FA8 /* WelcomeView.xib */; };
+		A34F07F127C2902B00D52FA8 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34F07ED27C2902B00D52FA8 /* LoginPresenter.swift */; };
+		A34F07F227C2902B00D52FA8 /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34F07EE27C2902B00D52FA8 /* LoginRouter.swift */; };
+		A34F07F327C2902B00D52FA8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34F07EF27C2902B00D52FA8 /* LoginViewController.swift */; };
+		A34F07F427C2902B00D52FA8 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34F07F027C2902B00D52FA8 /* LoginInteractor.swift */; };
+		A34F07F627C2904200D52FA8 /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A34F07F527C2904200D52FA8 /* LoginView.xib */; };
+		A34F07FA27C2922200D52FA8 /* ExtensionsString.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34F07F927C2922200D52FA8 /* ExtensionsString.swift */; };
 		A39CF05D27C270C300DE5DD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39CF05C27C270C300DE5DD8 /* AppDelegate.swift */; };
 		A39CF06627C270C400DE5DD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A39CF06527C270C400DE5DD8 /* Assets.xcassets */; };
 		A39CF06927C270C400DE5DD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A39CF06727C270C400DE5DD8 /* LaunchScreen.storyboard */; };
@@ -16,7 +25,6 @@
 		A39CF08027C270C500DE5DD8 /* CoffeYeiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39CF07F27C270C500DE5DD8 /* CoffeYeiUITestsLaunchTests.swift */; };
 		A39CF09A27C272B300DE5DD8 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39CF09927C272B300DE5DD8 /* Presenter.swift */; };
 		A39CF09C27C272BE00DE5DD8 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39CF09B27C272BE00DE5DD8 /* Interactor.swift */; };
-		A39CF0A027C272F900DE5DD8 /* LocalizableString.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39CF09F27C272F900DE5DD8 /* LocalizableString.swift */; };
 		A39CF0AE27C2767800DE5DD8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A39CF0B027C2767800DE5DD8 /* Localizable.strings */; };
 		A39CF0CA27C27AB400DE5DD8 /* WelcomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39CF0C627C27AB400DE5DD8 /* WelcomePresenter.swift */; };
 		A39CF0CB27C27AB400DE5DD8 /* WelcomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39CF0C727C27AB400DE5DD8 /* WelcomeRouter.swift */; };
@@ -42,7 +50,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A34F07E427C27B8300D52FA8 /* WelcomeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WelcomeView.xib; sourceTree = "<group>"; };
+		30B6FF4D1F64E8ACBA15E7C5 /* Pods_CoffeYeiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoffeYeiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4790FDAF50003F858585A8F1 /* Pods-CoffeYei.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeYei.debug.xcconfig"; path = "Target Support Files/Pods-CoffeYei/Pods-CoffeYei.debug.xcconfig"; sourceTree = "<group>"; };
+		6C9AFDF31AB49DAAB9D0BC49 /* Pods-CoffeYei-CoffeYeiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeYei-CoffeYeiUITests.release.xcconfig"; path = "Target Support Files/Pods-CoffeYei-CoffeYeiUITests/Pods-CoffeYei-CoffeYeiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		704DFA57D38B179A4F54BBC4 /* Pods-CoffeYei.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeYei.release.xcconfig"; path = "Target Support Files/Pods-CoffeYei/Pods-CoffeYei.release.xcconfig"; sourceTree = "<group>"; };
+		8B8A60890667DE13543A6F69 /* Pods_CoffeYei.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoffeYei.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A34F07E727C28DD500D52FA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/WelcomeView.xib; sourceTree = "<group>"; };
+		A34F07EA27C28DD700D52FA8 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/WelcomeView.strings; sourceTree = "<group>"; };
+		A34F07ED27C2902B00D52FA8 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		A34F07EE27C2902B00D52FA8 /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		A34F07EF27C2902B00D52FA8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A34F07F027C2902B00D52FA8 /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		A34F07F527C2904200D52FA8 /* LoginView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginView.xib; sourceTree = "<group>"; };
+		A34F07F927C2922200D52FA8 /* ExtensionsString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionsString.swift; sourceTree = "<group>"; };
 		A39CF05927C270C300DE5DD8 /* CoffeYei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeYei.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A39CF05C27C270C300DE5DD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A39CF06527C270C400DE5DD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -55,7 +75,6 @@
 		A39CF07F27C270C500DE5DD8 /* CoffeYeiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeYeiUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A39CF09927C272B300DE5DD8 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
 		A39CF09B27C272BE00DE5DD8 /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
-		A39CF09F27C272F900DE5DD8 /* LocalizableString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizableString.swift; sourceTree = "<group>"; };
 		A39CF0AF27C2767800DE5DD8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A39CF0B127C2770300DE5DD8 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		A39CF0B227C2770300DE5DD8 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -63,6 +82,10 @@
 		A39CF0C727C27AB400DE5DD8 /* WelcomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeRouter.swift; sourceTree = "<group>"; };
 		A39CF0C827C27AB400DE5DD8 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		A39CF0C927C27AB400DE5DD8 /* WelcomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeInteractor.swift; sourceTree = "<group>"; };
+		B04D4848AAD7D062D8222C99 /* Pods-CoffeYei-CoffeYeiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeYei-CoffeYeiUITests.debug.xcconfig"; path = "Target Support Files/Pods-CoffeYei-CoffeYeiUITests/Pods-CoffeYei-CoffeYeiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C3CB483089BF1A9B6D774D2E /* Pods-CoffeYeiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeYeiTests.release.xcconfig"; path = "Target Support Files/Pods-CoffeYeiTests/Pods-CoffeYeiTests.release.xcconfig"; sourceTree = "<group>"; };
+		E46FE76535CD5026555FCD0C /* Pods_CoffeYei_CoffeYeiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoffeYei_CoffeYeiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F50DB52DF3DDAD781B356592 /* Pods-CoffeYeiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeYeiTests.debug.xcconfig"; path = "Target Support Files/Pods-CoffeYeiTests/Pods-CoffeYeiTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89F0A9167DA3AEDECDF18DDE /* Pods_CoffeYei.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D73BF9C4DA9C926B908D89D /* Pods_CoffeYeiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,12 +109,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FB42F48F7EE5BF0831F4026 /* Pods_CoffeYei_CoffeYeiUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A34F07EB27C28FA400D52FA8 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A34F07ED27C2902B00D52FA8 /* LoginPresenter.swift */,
+				A34F07EE27C2902B00D52FA8 /* LoginRouter.swift */,
+				A34F07EF27C2902B00D52FA8 /* LoginViewController.swift */,
+				A34F07F027C2902B00D52FA8 /* LoginInteractor.swift */,
+				A34F07F527C2904200D52FA8 /* LoginView.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		A34F07EC27C28FAC00D52FA8 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
 		A39CF05027C270C300DE5DD8 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +142,8 @@
 				A39CF07227C270C500DE5DD8 /* CoffeYeiTests */,
 				A39CF07C27C270C500DE5DD8 /* CoffeYeiUITests */,
 				A39CF05A27C270C300DE5DD8 /* Products */,
+				B796C7540BF287D4AFD10F01 /* Pods */,
+				A79AEC0EC7F1856170667148 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -162,6 +209,8 @@
 		A39CF08E27C2714700DE5DD8 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				A34F07EC27C28FAC00D52FA8 /* Register */,
+				A34F07EB27C28FA400D52FA8 /* Login */,
 				A39CF0C527C27A9F00DE5DD8 /* Welcome */,
 			);
 			path = Modules;
@@ -173,7 +222,6 @@
 				A39CF09827C272A200DE5DD8 /* Extensions */,
 				A39CF09927C272B300DE5DD8 /* Presenter.swift */,
 				A39CF09B27C272BE00DE5DD8 /* Interactor.swift */,
-				A39CF09F27C272F900DE5DD8 /* LocalizableString.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -195,6 +243,7 @@
 		A39CF09827C272A200DE5DD8 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				A34F07F927C2922200D52FA8 /* ExtensionsString.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -206,9 +255,32 @@
 				A39CF0C727C27AB400DE5DD8 /* WelcomeRouter.swift */,
 				A39CF0C827C27AB400DE5DD8 /* WelcomeViewController.swift */,
 				A39CF0C927C27AB400DE5DD8 /* WelcomeInteractor.swift */,
-				A34F07E427C27B8300D52FA8 /* WelcomeView.xib */,
+				A34F07E827C28DD500D52FA8 /* WelcomeView.xib */,
 			);
 			path = Welcome;
+			sourceTree = "<group>";
+		};
+		A79AEC0EC7F1856170667148 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B8A60890667DE13543A6F69 /* Pods_CoffeYei.framework */,
+				E46FE76535CD5026555FCD0C /* Pods_CoffeYei_CoffeYeiUITests.framework */,
+				30B6FF4D1F64E8ACBA15E7C5 /* Pods_CoffeYeiTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B796C7540BF287D4AFD10F01 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4790FDAF50003F858585A8F1 /* Pods-CoffeYei.debug.xcconfig */,
+				704DFA57D38B179A4F54BBC4 /* Pods-CoffeYei.release.xcconfig */,
+				B04D4848AAD7D062D8222C99 /* Pods-CoffeYei-CoffeYeiUITests.debug.xcconfig */,
+				6C9AFDF31AB49DAAB9D0BC49 /* Pods-CoffeYei-CoffeYeiUITests.release.xcconfig */,
+				F50DB52DF3DDAD781B356592 /* Pods-CoffeYeiTests.debug.xcconfig */,
+				C3CB483089BF1A9B6D774D2E /* Pods-CoffeYeiTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,9 +290,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A39CF08327C270C500DE5DD8 /* Build configuration list for PBXNativeTarget "CoffeYei" */;
 			buildPhases = (
+				D14389F3CD7CD5DCEB1A0324 /* [CP] Check Pods Manifest.lock */,
 				A39CF05527C270C300DE5DD8 /* Sources */,
 				A39CF05627C270C300DE5DD8 /* Frameworks */,
 				A39CF05727C270C300DE5DD8 /* Resources */,
+				C7D8645732FFE617B3BD0B46 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,6 +309,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A39CF08627C270C500DE5DD8 /* Build configuration list for PBXNativeTarget "CoffeYeiTests" */;
 			buildPhases = (
+				698CDD90CA1EC9627B83E40F /* [CP] Check Pods Manifest.lock */,
 				A39CF06B27C270C500DE5DD8 /* Sources */,
 				A39CF06C27C270C500DE5DD8 /* Frameworks */,
 				A39CF06D27C270C500DE5DD8 /* Resources */,
@@ -253,9 +328,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A39CF08927C270C500DE5DD8 /* Build configuration list for PBXNativeTarget "CoffeYeiUITests" */;
 			buildPhases = (
+				E6D5AB9C9C03603DB00BD835 /* [CP] Check Pods Manifest.lock */,
 				A39CF07527C270C500DE5DD8 /* Sources */,
 				A39CF07627C270C500DE5DD8 /* Frameworks */,
 				A39CF07727C270C500DE5DD8 /* Resources */,
+				719930F94C0FB6ACE31B2334 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -319,7 +396,8 @@
 				A39CF06927C270C400DE5DD8 /* LaunchScreen.storyboard in Resources */,
 				A39CF0AE27C2767800DE5DD8 /* Localizable.strings in Resources */,
 				A39CF06627C270C400DE5DD8 /* Assets.xcassets in Resources */,
-				A34F07E527C27B8300D52FA8 /* WelcomeView.xib in Resources */,
+				A34F07F627C2904200D52FA8 /* LoginView.xib in Resources */,
+				A34F07E627C28DD500D52FA8 /* WelcomeView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,19 +417,126 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		698CDD90CA1EC9627B83E40F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoffeYeiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		719930F94C0FB6ACE31B2334 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoffeYei-CoffeYeiUITests/Pods-CoffeYei-CoffeYeiUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoffeYei-CoffeYeiUITests/Pods-CoffeYei-CoffeYeiUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoffeYei-CoffeYeiUITests/Pods-CoffeYei-CoffeYeiUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7D8645732FFE617B3BD0B46 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoffeYei/Pods-CoffeYei-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoffeYei/Pods-CoffeYei-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoffeYei/Pods-CoffeYei-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D14389F3CD7CD5DCEB1A0324 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoffeYei-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6D5AB9C9C03603DB00BD835 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoffeYei-CoffeYeiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A39CF05527C270C300DE5DD8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A39CF0A027C272F900DE5DD8 /* LocalizableString.swift in Sources */,
+				A34F07FA27C2922200D52FA8 /* ExtensionsString.swift in Sources */,
 				A39CF0CD27C27AB400DE5DD8 /* WelcomeInteractor.swift in Sources */,
 				A39CF0CA27C27AB400DE5DD8 /* WelcomePresenter.swift in Sources */,
+				A34F07F127C2902B00D52FA8 /* LoginPresenter.swift in Sources */,
 				A39CF05D27C270C300DE5DD8 /* AppDelegate.swift in Sources */,
 				A39CF0CB27C27AB400DE5DD8 /* WelcomeRouter.swift in Sources */,
 				A39CF09C27C272BE00DE5DD8 /* Interactor.swift in Sources */,
 				A39CF09A27C272B300DE5DD8 /* Presenter.swift in Sources */,
+				A34F07F427C2902B00D52FA8 /* LoginInteractor.swift in Sources */,
+				A34F07F227C2902B00D52FA8 /* LoginRouter.swift in Sources */,
 				A39CF0CC27C27AB400DE5DD8 /* WelcomeViewController.swift in Sources */,
+				A34F07F327C2902B00D52FA8 /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +573,15 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		A34F07E827C28DD500D52FA8 /* WelcomeView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A34F07E727C28DD500D52FA8 /* Base */,
+				A34F07EA27C28DD700D52FA8 /* es */,
+			);
+			name = WelcomeView.xib;
+			sourceTree = "<group>";
+		};
 		A39CF06727C270C400DE5DD8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -529,6 +723,7 @@
 		};
 		A39CF08427C270C500DE5DD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4790FDAF50003F858585A8F1 /* Pods-CoffeYei.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -560,6 +755,7 @@
 		};
 		A39CF08527C270C500DE5DD8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 704DFA57D38B179A4F54BBC4 /* Pods-CoffeYei.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -591,6 +787,7 @@
 		};
 		A39CF08727C270C500DE5DD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F50DB52DF3DDAD781B356592 /* Pods-CoffeYeiTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -616,6 +813,7 @@
 		};
 		A39CF08827C270C500DE5DD8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3CB483089BF1A9B6D774D2E /* Pods-CoffeYeiTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -641,6 +839,7 @@
 		};
 		A39CF08A27C270C500DE5DD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B04D4848AAD7D062D8222C99 /* Pods-CoffeYei-CoffeYeiUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -664,6 +863,7 @@
 		};
 		A39CF08B27C270C500DE5DD8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C9AFDF31AB49DAAB9D0BC49 /* Pods-CoffeYei-CoffeYeiUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

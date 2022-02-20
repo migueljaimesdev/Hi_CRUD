@@ -15,8 +15,13 @@
 		A34F07F227C2902B00D52FA8 /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34F07EE27C2902B00D52FA8 /* LoginRouter.swift */; };
 		A34F07F327C2902B00D52FA8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34F07EF27C2902B00D52FA8 /* LoginViewController.swift */; };
 		A34F07F427C2902B00D52FA8 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34F07F027C2902B00D52FA8 /* LoginInteractor.swift */; };
-		A34F07F627C2904200D52FA8 /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A34F07F527C2904200D52FA8 /* LoginView.xib */; };
 		A34F07FA27C2922200D52FA8 /* ExtensionsString.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34F07F927C2922200D52FA8 /* ExtensionsString.swift */; };
+		A34F080227C2A27E00D52FA8 /* RegisterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34F07FE27C2A27E00D52FA8 /* RegisterPresenter.swift */; };
+		A34F080327C2A27E00D52FA8 /* RegisterRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34F07FF27C2A27E00D52FA8 /* RegisterRouter.swift */; };
+		A34F080427C2A27E00D52FA8 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34F080027C2A27E00D52FA8 /* RegisterViewController.swift */; };
+		A34F080527C2A27E00D52FA8 /* RegisterInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34F080127C2A27E00D52FA8 /* RegisterInteractor.swift */; };
+		A34F080A27C2A2F500D52FA8 /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A34F080C27C2A2F500D52FA8 /* LoginView.xib */; };
+		A34F080F27C2A34500D52FA8 /* RegisterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A34F081127C2A34500D52FA8 /* RegisterView.xib */; };
 		A39CF05D27C270C300DE5DD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39CF05C27C270C300DE5DD8 /* AppDelegate.swift */; };
 		A39CF06627C270C400DE5DD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A39CF06527C270C400DE5DD8 /* Assets.xcassets */; };
 		A39CF06927C270C400DE5DD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A39CF06727C270C400DE5DD8 /* LaunchScreen.storyboard */; };
@@ -61,8 +66,15 @@
 		A34F07EE27C2902B00D52FA8 /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
 		A34F07EF27C2902B00D52FA8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		A34F07F027C2902B00D52FA8 /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
-		A34F07F527C2904200D52FA8 /* LoginView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginView.xib; sourceTree = "<group>"; };
 		A34F07F927C2922200D52FA8 /* ExtensionsString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionsString.swift; sourceTree = "<group>"; };
+		A34F07FE27C2A27E00D52FA8 /* RegisterPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPresenter.swift; sourceTree = "<group>"; };
+		A34F07FF27C2A27E00D52FA8 /* RegisterRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterRouter.swift; sourceTree = "<group>"; };
+		A34F080027C2A27E00D52FA8 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		A34F080127C2A27E00D52FA8 /* RegisterInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterInteractor.swift; sourceTree = "<group>"; };
+		A34F080B27C2A2F500D52FA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LoginView.xib; sourceTree = "<group>"; };
+		A34F080E27C2A2F700D52FA8 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LoginView.strings; sourceTree = "<group>"; };
+		A34F081027C2A34500D52FA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/RegisterView.xib; sourceTree = "<group>"; };
+		A34F081327C2A34900D52FA8 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/RegisterView.strings; sourceTree = "<group>"; };
 		A39CF05927C270C300DE5DD8 /* CoffeYei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeYei.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A39CF05C27C270C300DE5DD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A39CF06527C270C400DE5DD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -123,7 +135,7 @@
 				A34F07EE27C2902B00D52FA8 /* LoginRouter.swift */,
 				A34F07EF27C2902B00D52FA8 /* LoginViewController.swift */,
 				A34F07F027C2902B00D52FA8 /* LoginInteractor.swift */,
-				A34F07F527C2904200D52FA8 /* LoginView.xib */,
+				A34F080C27C2A2F500D52FA8 /* LoginView.xib */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -131,6 +143,11 @@
 		A34F07EC27C28FAC00D52FA8 /* Register */ = {
 			isa = PBXGroup;
 			children = (
+				A34F07FE27C2A27E00D52FA8 /* RegisterPresenter.swift */,
+				A34F07FF27C2A27E00D52FA8 /* RegisterRouter.swift */,
+				A34F080027C2A27E00D52FA8 /* RegisterViewController.swift */,
+				A34F080127C2A27E00D52FA8 /* RegisterInteractor.swift */,
+				A34F081127C2A34500D52FA8 /* RegisterView.xib */,
 			);
 			path = Register;
 			sourceTree = "<group>";
@@ -394,9 +411,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A39CF06927C270C400DE5DD8 /* LaunchScreen.storyboard in Resources */,
+				A34F080F27C2A34500D52FA8 /* RegisterView.xib in Resources */,
 				A39CF0AE27C2767800DE5DD8 /* Localizable.strings in Resources */,
 				A39CF06627C270C400DE5DD8 /* Assets.xcassets in Resources */,
-				A34F07F627C2904200D52FA8 /* LoginView.xib in Resources */,
+				A34F080A27C2A2F500D52FA8 /* LoginView.xib in Resources */,
 				A34F07E627C28DD500D52FA8 /* WelcomeView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -528,10 +546,14 @@
 				A34F07FA27C2922200D52FA8 /* ExtensionsString.swift in Sources */,
 				A39CF0CD27C27AB400DE5DD8 /* WelcomeInteractor.swift in Sources */,
 				A39CF0CA27C27AB400DE5DD8 /* WelcomePresenter.swift in Sources */,
+				A34F080527C2A27E00D52FA8 /* RegisterInteractor.swift in Sources */,
 				A34F07F127C2902B00D52FA8 /* LoginPresenter.swift in Sources */,
 				A39CF05D27C270C300DE5DD8 /* AppDelegate.swift in Sources */,
+				A34F080327C2A27E00D52FA8 /* RegisterRouter.swift in Sources */,
+				A34F080427C2A27E00D52FA8 /* RegisterViewController.swift in Sources */,
 				A39CF0CB27C27AB400DE5DD8 /* WelcomeRouter.swift in Sources */,
 				A39CF09C27C272BE00DE5DD8 /* Interactor.swift in Sources */,
+				A34F080227C2A27E00D52FA8 /* RegisterPresenter.swift in Sources */,
 				A39CF09A27C272B300DE5DD8 /* Presenter.swift in Sources */,
 				A34F07F427C2902B00D52FA8 /* LoginInteractor.swift in Sources */,
 				A34F07F227C2902B00D52FA8 /* LoginRouter.swift in Sources */,
@@ -580,6 +602,24 @@
 				A34F07EA27C28DD700D52FA8 /* es */,
 			);
 			name = WelcomeView.xib;
+			sourceTree = "<group>";
+		};
+		A34F080C27C2A2F500D52FA8 /* LoginView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A34F080B27C2A2F500D52FA8 /* Base */,
+				A34F080E27C2A2F700D52FA8 /* es */,
+			);
+			name = LoginView.xib;
+			sourceTree = "<group>";
+		};
+		A34F081127C2A34500D52FA8 /* RegisterView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A34F081027C2A34500D52FA8 /* Base */,
+				A34F081327C2A34900D52FA8 /* es */,
+			);
+			name = RegisterView.xib;
 			sourceTree = "<group>";
 		};
 		A39CF06727C270C400DE5DD8 /* LaunchScreen.storyboard */ = {

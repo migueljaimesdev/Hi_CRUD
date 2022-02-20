@@ -17,5 +17,5 @@ class WelcomeRouter: PresenterToRouterWelcomeProtocol {
     
     static func loginViewController() -> UIViewController { LoginViewController() }
     
-    //static func registerViewController() -> UIViewController { RegisterViewController() }
+    static func registerViewController() -> UIViewController { RegisterViewController() }
 }

@@ -37,11 +37,11 @@ class WelcomeViewController: UIViewController {
     }
     
     @IBAction func loginPressed(_ sender: Any) {
-        //navigationController?.pushViewController(WelcomeRouter.loginViewController(), animated: true)
+        navigationController?.pushViewController(WelcomeRouter.loginViewController(), animated: true)
     }
     
     @IBAction func singInPressed(_ sender: Any) {
-        //navigationController?.pushViewController(WelcomeRouter.registerViewController(), animated: true)
+        navigationController?.pushViewController(WelcomeRouter.registerViewController(), animated: true)
     }
 }
 

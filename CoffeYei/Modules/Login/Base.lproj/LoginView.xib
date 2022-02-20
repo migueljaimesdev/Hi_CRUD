@@ -9,7 +9,11 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController" customModule="CoffeYei" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="D3p-TF-ZMz"/>
+            </connections>
+        </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB">
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -21,12 +25,12 @@
                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8T9-VS-5Ek">
                             <rect key="frame" x="0.0" y="0.0" width="374" height="34"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                            <textInputTraits key="textInputTraits"/>
+                            <textInputTraits key="textInputTraits" textContentType="email"/>
                         </textField>
                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="O0S-aM-v2N">
                             <rect key="frame" x="0.0" y="44" width="374" height="34"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                            <textInputTraits key="textInputTraits"/>
+                            <textInputTraits key="textInputTraits" textContentType="password"/>
                         </textField>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w0h-Uz-4El">
                             <rect key="frame" x="0.0" y="88" width="374" height="45"/>
@@ -54,21 +58,28 @@
                         <constraint firstItem="w0h-Uz-4El" firstAttribute="leading" secondItem="1lF-wM-sCz" secondAttribute="leading" id="yml-Ou-njn"/>
                     </constraints>
                 </stackView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bottomImage" translatesAutoresizingMaskIntoConstraints="NO" id="HJ6-lq-CVd">
+                    <rect key="frame" x="0.0" y="771" width="414" height="125"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="125" id="BGc-By-hyr"/>
+                    </constraints>
+                </imageView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
-            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="HJ6-lq-CVd" secondAttribute="trailing" id="0VM-W3-Aqi"/>
+                <constraint firstAttribute="bottom" secondItem="HJ6-lq-CVd" secondAttribute="bottom" id="1Le-Kb-dl3"/>
+                <constraint firstItem="HJ6-lq-CVd" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="TMV-gQ-WZM"/>
                 <constraint firstItem="1lF-wM-sCz" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="20" id="kFa-6B-BmA"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="1lF-wM-sCz" secondAttribute="trailing" constant="20" id="ymp-9F-je5"/>
                 <constraint firstItem="1lF-wM-sCz" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="zeJ-S3-gbm"/>
             </constraints>
-            <point key="canvasLocation" x="132" y="131"/>
+            <point key="canvasLocation" x="131.8840579710145" y="130.58035714285714"/>
         </view>
     </objects>
     <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
+        <image name="bottomImage" width="703" height="246"/>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

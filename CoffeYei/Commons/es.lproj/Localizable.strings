@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  CoffeYei
+
+*/
+
+"welcome_screen_title" = "Disfruta de un buen café mientras haces lo que te gusta";
+"titleLoginScreenNav" = "Iniciar sesión";
+"titleSignInScreenNav" = "Registrarse";

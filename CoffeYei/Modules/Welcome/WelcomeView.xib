@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WelcomeViewController" customModule="CoffeYei" customModuleProvider="target">
+            <connections>
+                <outlet property="SignInUIBtn" destination="IIB-T2-Koj" id="Jyg-w1-ZzG"/>
+                <outlet property="SignUpUIBtn" destination="VEG-yQ-SAc" id="fju-pM-Qe4"/>
+                <outlet property="subWelcomeTitleUILabel" destination="PNP-KW-edI" id="ujY-jR-fQr"/>
+                <outlet property="view" destination="owm-T8-dpD" id="s8Z-9G-WhY"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="owm-T8-dpD">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="welcomeBackground" translatesAutoresizingMaskIntoConstraints="NO" id="qeD-vD-4fy">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="urJ-GL-rum">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="F8c-41-gtq">
+                            <rect key="frame" x="20" y="791" width="374" height="80"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IIB-T2-Koj">
+                                    <rect key="frame" x="0.0" y="0.0" width="374" height="45"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="45" id="RwB-AV-zlW"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <state key="normal" title="Log in"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <real key="value" value="20"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VEG-yQ-SAc">
+                                    <rect key="frame" x="0.0" y="50" width="374" height="30"/>
+                                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <state key="normal" title="Register"/>
+                                </button>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="F8c-41-gtq" secondAttribute="trailing" constant="20" id="1e5-pS-cy8"/>
+                        <constraint firstItem="F8c-41-gtq" firstAttribute="leading" secondItem="urJ-GL-rum" secondAttribute="leading" constant="20" id="hbu-eT-IYu"/>
+                        <constraint firstAttribute="bottom" secondItem="F8c-41-gtq" secondAttribute="bottom" constant="25" id="uAm-7c-KhX"/>
+                    </constraints>
+                </view>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="E9x-Nk-h0x">
+                    <rect key="frame" x="10" y="405" width="394" height="86"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CoffeeYei" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cfu-DK-d7J">
+                            <rect key="frame" x="117" y="0.0" width="160.5" height="43"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="highlightedColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enjoy a good coffee while doing what you love" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PNP-KW-edI">
+                            <rect key="frame" x="22" y="43" width="350" height="43"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.96862745100000003" green="0.96078431369999995" blue="0.94117647059999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="374" id="8i8-Vq-7v8"/>
+                    </constraints>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="Q5v-o4-lbm"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="qeD-vD-4fy" firstAttribute="leading" secondItem="Q5v-o4-lbm" secondAttribute="leading" id="A62-cd-vby"/>
+                <constraint firstItem="urJ-GL-rum" firstAttribute="top" secondItem="owm-T8-dpD" secondAttribute="top" id="CRV-O4-Cmc"/>
+                <constraint firstItem="qeD-vD-4fy" firstAttribute="top" secondItem="owm-T8-dpD" secondAttribute="top" id="JkI-5p-MCJ"/>
+                <constraint firstAttribute="bottom" secondItem="urJ-GL-rum" secondAttribute="bottom" id="Xxe-Z1-xpz"/>
+                <constraint firstItem="E9x-Nk-h0x" firstAttribute="leading" secondItem="owm-T8-dpD" secondAttribute="leading" constant="10" id="bYg-Qg-DLL"/>
+                <constraint firstItem="Q5v-o4-lbm" firstAttribute="trailing" secondItem="qeD-vD-4fy" secondAttribute="trailing" id="cfW-qU-Gbr"/>
+                <constraint firstItem="E9x-Nk-h0x" firstAttribute="centerY" secondItem="owm-T8-dpD" secondAttribute="centerY" id="k7t-av-cYi"/>
+                <constraint firstItem="Q5v-o4-lbm" firstAttribute="trailing" secondItem="urJ-GL-rum" secondAttribute="trailing" id="quz-oN-HSm"/>
+                <constraint firstAttribute="trailing" secondItem="E9x-Nk-h0x" secondAttribute="trailing" constant="10" id="ruc-OY-EzU"/>
+                <constraint firstItem="urJ-GL-rum" firstAttribute="leading" secondItem="Q5v-o4-lbm" secondAttribute="leading" id="sec-oG-TbV"/>
+                <constraint firstItem="E9x-Nk-h0x" firstAttribute="centerX" secondItem="owm-T8-dpD" secondAttribute="centerX" id="t9q-Fo-vfa"/>
+                <constraint firstItem="qeD-vD-4fy" firstAttribute="bottom" secondItem="owm-T8-dpD" secondAttribute="bottom" id="zQx-4h-Cvh"/>
+            </constraints>
+            <point key="canvasLocation" x="131.8840579710145" y="129.91071428571428"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="welcomeBackground" width="640" height="425"/>
+        <systemColor name="secondarySystemGroupedBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

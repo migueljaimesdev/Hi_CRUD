@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
         let navController = UINavigationController()
-        let viewController = WelcomeRouter.createModule()
+        let viewController = ListUsersRouter.createModule()
 
         navController.viewControllers = [viewController]
      

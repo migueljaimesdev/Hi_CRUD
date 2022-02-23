@@ -71,7 +71,6 @@
 		A39CF09927C272B300DE5DD8 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
 		A39CF09B27C272BE00DE5DD8 /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
 		A39CF0AF27C2767800DE5DD8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		A39CF0B127C2770300DE5DD8 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		A39CF0B227C2770300DE5DD8 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A3F0260F27C59EBD00A262E5 /* TargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetType.swift; sourceTree = "<group>"; };
 		A3F0261327C5A0D000A262E5 /* ListUsersPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUsersPresenter.swift; sourceTree = "<group>"; };
@@ -576,7 +575,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				A39CF06827C270C400DE5DD8 /* Base */,
-				A39CF0B127C2770300DE5DD8 /* es */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";

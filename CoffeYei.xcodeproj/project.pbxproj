@@ -725,6 +725,7 @@
 				DEVELOPMENT_TEAM = 2QD776TQMX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CoffeYei/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Hi;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
@@ -757,6 +758,7 @@
 				DEVELOPMENT_TEAM = 2QD776TQMX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CoffeYei/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Hi;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;

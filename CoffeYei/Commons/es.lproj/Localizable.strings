@@ -5,3 +5,4 @@
 */
 
 "errorUserList" = "Error al cargar los usuarios";
+"userListTitle" = "Lista de Usuarios";

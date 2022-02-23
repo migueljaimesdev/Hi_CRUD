@@ -23,8 +23,18 @@ class ListUsersViewController: UIViewController{
         super.viewDidLoad()
         presenter.onViewDidLoad()
         registerCustomCells()
+        setUpNavigationBar()
         setUpTableView()
     }
+    
+    func setUpNavigationBar(){
+        self.title = "userListTitle".localized()
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Add", style: .plain, target: self, action: #selector(addUser))
+    }
+    
+    @objc func addUser() {
+        self.navigationController?.pushViewController(Router.sharedInstance.createUserViewcontroller(), animated: true)
+      }
 }
 
 extension ListUsersViewController: ListUsersPresenterOutput, NVActivityIndicatorViewable {
@@ -42,10 +52,7 @@ extension ListUsersViewController: ListUsersPresenterOutput, NVActivityIndicator
     }
     
     func showAlert(title: String, message: String) {
-        let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
-        let action = UIAlertAction(title: "Ok", style: .default, handler: nil)
-        alert.addAction(action)
-        present(alert, animated: true, completion: nil)
+      alertView(title: title, message: message)
     }
 }
 
@@ -70,7 +77,6 @@ extension ListUsersViewController: UITableViewDataSource {
 
 // MARK:- registerCustomCells
 extension ListUsersViewController {
-    
     func setUpTableView(){
         usersTableView?.delegate = self
         usersTableView?.dataSource = self

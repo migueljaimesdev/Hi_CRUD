@@ -10,7 +10,7 @@ import UIKit
 
 // MARK: Router Input (Presenter -> Router)
 protocol ListUsersPresenterRouter {
-    
+    func pushCreateUser(on view: ListUsersPresenterInput)
 }
 
 // MARK: View Input (View -> Presenter)
@@ -34,6 +34,10 @@ class ListUsersPresenter: Presenter {
     internal var output: ListUsersPresenterOutput
     
     init(output: ListUsersPresenterOutput) { self.output = output }
+    
+    func pushCreateUser(){
+        
+    }
 }
 
 extension ListUsersPresenter: ListUsersPresenterInput {

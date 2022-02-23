@@ -1,9 +1,0 @@
-
-/* Class = "UITextField"; placeholder = "Email"; ObjectID = "8T9-VS-5Ek"; */
-"8T9-VS-5Ek.placeholder" = "Correo";
-
-/* Class = "UITextField"; placeholder = "Password"; ObjectID = "O0S-aM-v2N"; */
-"O0S-aM-v2N.placeholder" = "Contraseña";
-
-/* Class = "UIButton"; normalTitle = "Log in"; ObjectID = "w0h-Uz-4El"; */
-"w0h-Uz-4El.normalTitle" = "Iniciar Sesión";

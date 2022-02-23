@@ -10,18 +10,7 @@
 		0D73BF9C4DA9C926B908D89D /* Pods_CoffeYeiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30B6FF4D1F64E8ACBA15E7C5 /* Pods_CoffeYeiTests.framework */; };
 		89F0A9167DA3AEDECDF18DDE /* Pods_CoffeYei.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8A60890667DE13543A6F69 /* Pods_CoffeYei.framework */; };
 		9FB42F48F7EE5BF0831F4026 /* Pods_CoffeYei_CoffeYeiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E46FE76535CD5026555FCD0C /* Pods_CoffeYei_CoffeYeiUITests.framework */; };
-		A34F07E627C28DD500D52FA8 /* WelcomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A34F07E827C28DD500D52FA8 /* WelcomeView.xib */; };
-		A34F07F127C2902B00D52FA8 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34F07ED27C2902B00D52FA8 /* LoginPresenter.swift */; };
-		A34F07F227C2902B00D52FA8 /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34F07EE27C2902B00D52FA8 /* LoginRouter.swift */; };
-		A34F07F327C2902B00D52FA8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34F07EF27C2902B00D52FA8 /* LoginViewController.swift */; };
-		A34F07F427C2902B00D52FA8 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34F07F027C2902B00D52FA8 /* LoginInteractor.swift */; };
 		A34F07FA27C2922200D52FA8 /* ExtensionsString.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34F07F927C2922200D52FA8 /* ExtensionsString.swift */; };
-		A34F080227C2A27E00D52FA8 /* RegisterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34F07FE27C2A27E00D52FA8 /* RegisterPresenter.swift */; };
-		A34F080327C2A27E00D52FA8 /* RegisterRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34F07FF27C2A27E00D52FA8 /* RegisterRouter.swift */; };
-		A34F080427C2A27E00D52FA8 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34F080027C2A27E00D52FA8 /* RegisterViewController.swift */; };
-		A34F080527C2A27E00D52FA8 /* RegisterInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34F080127C2A27E00D52FA8 /* RegisterInteractor.swift */; };
-		A34F080A27C2A2F500D52FA8 /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A34F080C27C2A2F500D52FA8 /* LoginView.xib */; };
-		A34F080F27C2A34500D52FA8 /* RegisterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A34F081127C2A34500D52FA8 /* RegisterView.xib */; };
 		A39CF05D27C270C300DE5DD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39CF05C27C270C300DE5DD8 /* AppDelegate.swift */; };
 		A39CF06627C270C400DE5DD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A39CF06527C270C400DE5DD8 /* Assets.xcassets */; };
 		A39CF06927C270C400DE5DD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A39CF06727C270C400DE5DD8 /* LaunchScreen.storyboard */; };
@@ -31,10 +20,18 @@
 		A39CF09A27C272B300DE5DD8 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39CF09927C272B300DE5DD8 /* Presenter.swift */; };
 		A39CF09C27C272BE00DE5DD8 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39CF09B27C272BE00DE5DD8 /* Interactor.swift */; };
 		A39CF0AE27C2767800DE5DD8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A39CF0B027C2767800DE5DD8 /* Localizable.strings */; };
-		A39CF0CA27C27AB400DE5DD8 /* WelcomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39CF0C627C27AB400DE5DD8 /* WelcomePresenter.swift */; };
-		A39CF0CB27C27AB400DE5DD8 /* WelcomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39CF0C727C27AB400DE5DD8 /* WelcomeRouter.swift */; };
-		A39CF0CC27C27AB400DE5DD8 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39CF0C827C27AB400DE5DD8 /* WelcomeViewController.swift */; };
-		A39CF0CD27C27AB400DE5DD8 /* WelcomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39CF0C927C27AB400DE5DD8 /* WelcomeInteractor.swift */; };
+		A3F0261027C59EBD00A262E5 /* TargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F0260F27C59EBD00A262E5 /* TargetType.swift */; };
+		A3F0261727C5A0D000A262E5 /* ListUsersPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F0261327C5A0D000A262E5 /* ListUsersPresenter.swift */; };
+		A3F0261827C5A0D000A262E5 /* ListUsersRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F0261427C5A0D000A262E5 /* ListUsersRouter.swift */; };
+		A3F0261927C5A0D000A262E5 /* ListUsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F0261527C5A0D000A262E5 /* ListUsersViewController.swift */; };
+		A3F0261C27C5A0EC00A262E5 /* ListUsersView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3F0261B27C5A0EC00A262E5 /* ListUsersView.xib */; };
+		A3F0261F27C5A51F00A262E5 /* BaseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F0261E27C5A51F00A262E5 /* BaseAPI.swift */; };
+		A3F0262227C5A65100A262E5 /* RepositoriesNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F0262127C5A65100A262E5 /* RepositoriesNetworking.swift */; };
+		A3F0262427C5A82100A262E5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F0262327C5A82100A262E5 /* Constants.swift */; };
+		A3F0262627C5A91300A262E5 /* RepositoriesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F0262527C5A91300A262E5 /* RepositoriesAPI.swift */; };
+		A3F0262927C5A9F400A262E5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F0262827C5A9F400A262E5 /* User.swift */; };
+		A3F0263027C5BC1700A262E5 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F0262E27C5BC1700A262E5 /* UserTableViewCell.swift */; };
+		A3F0263127C5BC1700A262E5 /* UserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3F0262F27C5BC1700A262E5 /* UserTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,21 +57,7 @@
 		6C9AFDF31AB49DAAB9D0BC49 /* Pods-CoffeYei-CoffeYeiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeYei-CoffeYeiUITests.release.xcconfig"; path = "Target Support Files/Pods-CoffeYei-CoffeYeiUITests/Pods-CoffeYei-CoffeYeiUITests.release.xcconfig"; sourceTree = "<group>"; };
 		704DFA57D38B179A4F54BBC4 /* Pods-CoffeYei.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeYei.release.xcconfig"; path = "Target Support Files/Pods-CoffeYei/Pods-CoffeYei.release.xcconfig"; sourceTree = "<group>"; };
 		8B8A60890667DE13543A6F69 /* Pods_CoffeYei.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoffeYei.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A34F07E727C28DD500D52FA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/WelcomeView.xib; sourceTree = "<group>"; };
-		A34F07EA27C28DD700D52FA8 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/WelcomeView.strings; sourceTree = "<group>"; };
-		A34F07ED27C2902B00D52FA8 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
-		A34F07EE27C2902B00D52FA8 /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
-		A34F07EF27C2902B00D52FA8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		A34F07F027C2902B00D52FA8 /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
 		A34F07F927C2922200D52FA8 /* ExtensionsString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionsString.swift; sourceTree = "<group>"; };
-		A34F07FE27C2A27E00D52FA8 /* RegisterPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPresenter.swift; sourceTree = "<group>"; };
-		A34F07FF27C2A27E00D52FA8 /* RegisterRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterRouter.swift; sourceTree = "<group>"; };
-		A34F080027C2A27E00D52FA8 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
-		A34F080127C2A27E00D52FA8 /* RegisterInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterInteractor.swift; sourceTree = "<group>"; };
-		A34F080B27C2A2F500D52FA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LoginView.xib; sourceTree = "<group>"; };
-		A34F080E27C2A2F700D52FA8 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LoginView.strings; sourceTree = "<group>"; };
-		A34F081027C2A34500D52FA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/RegisterView.xib; sourceTree = "<group>"; };
-		A34F081327C2A34900D52FA8 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/RegisterView.strings; sourceTree = "<group>"; };
 		A39CF05927C270C300DE5DD8 /* CoffeYei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeYei.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A39CF05C27C270C300DE5DD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A39CF06527C270C400DE5DD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -90,10 +73,18 @@
 		A39CF0AF27C2767800DE5DD8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A39CF0B127C2770300DE5DD8 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		A39CF0B227C2770300DE5DD8 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
-		A39CF0C627C27AB400DE5DD8 /* WelcomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePresenter.swift; sourceTree = "<group>"; };
-		A39CF0C727C27AB400DE5DD8 /* WelcomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeRouter.swift; sourceTree = "<group>"; };
-		A39CF0C827C27AB400DE5DD8 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
-		A39CF0C927C27AB400DE5DD8 /* WelcomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeInteractor.swift; sourceTree = "<group>"; };
+		A3F0260F27C59EBD00A262E5 /* TargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetType.swift; sourceTree = "<group>"; };
+		A3F0261327C5A0D000A262E5 /* ListUsersPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUsersPresenter.swift; sourceTree = "<group>"; };
+		A3F0261427C5A0D000A262E5 /* ListUsersRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUsersRouter.swift; sourceTree = "<group>"; };
+		A3F0261527C5A0D000A262E5 /* ListUsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUsersViewController.swift; sourceTree = "<group>"; };
+		A3F0261B27C5A0EC00A262E5 /* ListUsersView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListUsersView.xib; sourceTree = "<group>"; };
+		A3F0261E27C5A51F00A262E5 /* BaseAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAPI.swift; sourceTree = "<group>"; };
+		A3F0262127C5A65100A262E5 /* RepositoriesNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoriesNetworking.swift; sourceTree = "<group>"; };
+		A3F0262327C5A82100A262E5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A3F0262527C5A91300A262E5 /* RepositoriesAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoriesAPI.swift; sourceTree = "<group>"; };
+		A3F0262827C5A9F400A262E5 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A3F0262E27C5BC1700A262E5 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		A3F0262F27C5BC1700A262E5 /* UserTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserTableViewCell.xib; sourceTree = "<group>"; };
 		B04D4848AAD7D062D8222C99 /* Pods-CoffeYei-CoffeYeiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeYei-CoffeYeiUITests.debug.xcconfig"; path = "Target Support Files/Pods-CoffeYei-CoffeYeiUITests/Pods-CoffeYei-CoffeYeiUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C3CB483089BF1A9B6D774D2E /* Pods-CoffeYeiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeYeiTests.release.xcconfig"; path = "Target Support Files/Pods-CoffeYeiTests/Pods-CoffeYeiTests.release.xcconfig"; sourceTree = "<group>"; };
 		E46FE76535CD5026555FCD0C /* Pods_CoffeYei_CoffeYeiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoffeYei_CoffeYeiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,30 +119,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A34F07EB27C28FA400D52FA8 /* Login */ = {
-			isa = PBXGroup;
-			children = (
-				A34F07ED27C2902B00D52FA8 /* LoginPresenter.swift */,
-				A34F07EE27C2902B00D52FA8 /* LoginRouter.swift */,
-				A34F07EF27C2902B00D52FA8 /* LoginViewController.swift */,
-				A34F07F027C2902B00D52FA8 /* LoginInteractor.swift */,
-				A34F080C27C2A2F500D52FA8 /* LoginView.xib */,
-			);
-			path = Login;
-			sourceTree = "<group>";
-		};
-		A34F07EC27C28FAC00D52FA8 /* Register */ = {
-			isa = PBXGroup;
-			children = (
-				A34F07FE27C2A27E00D52FA8 /* RegisterPresenter.swift */,
-				A34F07FF27C2A27E00D52FA8 /* RegisterRouter.swift */,
-				A34F080027C2A27E00D52FA8 /* RegisterViewController.swift */,
-				A34F080127C2A27E00D52FA8 /* RegisterInteractor.swift */,
-				A34F081127C2A34500D52FA8 /* RegisterView.xib */,
-			);
-			path = Register;
-			sourceTree = "<group>";
-		};
 		A39CF05027C270C300DE5DD8 = {
 			isa = PBXGroup;
 			children = (
@@ -179,10 +146,10 @@
 			children = (
 				A39CF06A27C270C400DE5DD8 /* Info.plist */,
 				A39CF08C27C2712E00DE5DD8 /* Commons */,
-				A39CF08D27C2713E00DE5DD8 /* Repository */,
+				A3F0260E27C59EA700A262E5 /* Network */,
 				A39CF08E27C2714700DE5DD8 /* Modules */,
+				A3F0262727C5A9E300A262E5 /* Models */,
 				A39CF08F27C2715A00DE5DD8 /* Utils */,
-				A39CF09027C2717600DE5DD8 /* Models */,
 			);
 			path = CoffeYei;
 			sourceTree = "<group>";
@@ -211,24 +178,15 @@
 				A39CF05C27C270C300DE5DD8 /* AppDelegate.swift */,
 				A39CF06527C270C400DE5DD8 /* Assets.xcassets */,
 				A39CF0B027C2767800DE5DD8 /* Localizable.strings */,
+				A3F0262327C5A82100A262E5 /* Constants.swift */,
 			);
 			path = Commons;
-			sourceTree = "<group>";
-		};
-		A39CF08D27C2713E00DE5DD8 /* Repository */ = {
-			isa = PBXGroup;
-			children = (
-				A39CF09127C271C900DE5DD8 /* Services */,
-			);
-			path = Repository;
 			sourceTree = "<group>";
 		};
 		A39CF08E27C2714700DE5DD8 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				A34F07EC27C28FAC00D52FA8 /* Register */,
-				A34F07EB27C28FA400D52FA8 /* Login */,
-				A39CF0C527C27A9F00DE5DD8 /* Welcome */,
+				A3F0261227C5A09A00A262E5 /* Main */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -243,20 +201,6 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
-		A39CF09027C2717600DE5DD8 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		A39CF09127C271C900DE5DD8 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Services;
-			sourceTree = "<group>";
-		};
 		A39CF09827C272A200DE5DD8 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -265,16 +209,52 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		A39CF0C527C27A9F00DE5DD8 /* Welcome */ = {
+		A3F0260E27C59EA700A262E5 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				A39CF0C627C27AB400DE5DD8 /* WelcomePresenter.swift */,
-				A39CF0C727C27AB400DE5DD8 /* WelcomeRouter.swift */,
-				A39CF0C827C27AB400DE5DD8 /* WelcomeViewController.swift */,
-				A39CF0C927C27AB400DE5DD8 /* WelcomeInteractor.swift */,
-				A34F07E827C28DD500D52FA8 /* WelcomeView.xib */,
+				A3F0260F27C59EBD00A262E5 /* TargetType.swift */,
+				A3F0261E27C5A51F00A262E5 /* BaseAPI.swift */,
+				A3F0262027C5A5FD00A262E5 /* Repositories */,
 			);
-			path = Welcome;
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A3F0261227C5A09A00A262E5 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A3F0262D27C5BC0100A262E5 /* ListUsersCell */,
+				A3F0261427C5A0D000A262E5 /* ListUsersRouter.swift */,
+				A3F0261327C5A0D000A262E5 /* ListUsersPresenter.swift */,
+				A3F0261527C5A0D000A262E5 /* ListUsersViewController.swift */,
+				A3F0261B27C5A0EC00A262E5 /* ListUsersView.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A3F0262027C5A5FD00A262E5 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				A3F0262127C5A65100A262E5 /* RepositoriesNetworking.swift */,
+				A3F0262527C5A91300A262E5 /* RepositoriesAPI.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		A3F0262727C5A9E300A262E5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A3F0262827C5A9F400A262E5 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A3F0262D27C5BC0100A262E5 /* ListUsersCell */ = {
+			isa = PBXGroup;
+			children = (
+				A3F0262E27C5BC1700A262E5 /* UserTableViewCell.swift */,
+				A3F0262F27C5BC1700A262E5 /* UserTableViewCell.xib */,
+			);
+			path = ListUsersCell;
 			sourceTree = "<group>";
 		};
 		A79AEC0EC7F1856170667148 /* Frameworks */ = {
@@ -411,11 +391,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A39CF06927C270C400DE5DD8 /* LaunchScreen.storyboard in Resources */,
-				A34F080F27C2A34500D52FA8 /* RegisterView.xib in Resources */,
+				A3F0263127C5BC1700A262E5 /* UserTableViewCell.xib in Resources */,
 				A39CF0AE27C2767800DE5DD8 /* Localizable.strings in Resources */,
 				A39CF06627C270C400DE5DD8 /* Assets.xcassets in Resources */,
-				A34F080A27C2A2F500D52FA8 /* LoginView.xib in Resources */,
-				A34F07E627C28DD500D52FA8 /* WelcomeView.xib in Resources */,
+				A3F0261C27C5A0EC00A262E5 /* ListUsersView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -543,22 +522,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3F0261827C5A0D000A262E5 /* ListUsersRouter.swift in Sources */,
 				A34F07FA27C2922200D52FA8 /* ExtensionsString.swift in Sources */,
-				A39CF0CD27C27AB400DE5DD8 /* WelcomeInteractor.swift in Sources */,
-				A39CF0CA27C27AB400DE5DD8 /* WelcomePresenter.swift in Sources */,
-				A34F080527C2A27E00D52FA8 /* RegisterInteractor.swift in Sources */,
-				A34F07F127C2902B00D52FA8 /* LoginPresenter.swift in Sources */,
 				A39CF05D27C270C300DE5DD8 /* AppDelegate.swift in Sources */,
-				A34F080327C2A27E00D52FA8 /* RegisterRouter.swift in Sources */,
-				A34F080427C2A27E00D52FA8 /* RegisterViewController.swift in Sources */,
-				A39CF0CB27C27AB400DE5DD8 /* WelcomeRouter.swift in Sources */,
 				A39CF09C27C272BE00DE5DD8 /* Interactor.swift in Sources */,
-				A34F080227C2A27E00D52FA8 /* RegisterPresenter.swift in Sources */,
 				A39CF09A27C272B300DE5DD8 /* Presenter.swift in Sources */,
-				A34F07F427C2902B00D52FA8 /* LoginInteractor.swift in Sources */,
-				A34F07F227C2902B00D52FA8 /* LoginRouter.swift in Sources */,
-				A39CF0CC27C27AB400DE5DD8 /* WelcomeViewController.swift in Sources */,
-				A34F07F327C2902B00D52FA8 /* LoginViewController.swift in Sources */,
+				A3F0263027C5BC1700A262E5 /* UserTableViewCell.swift in Sources */,
+				A3F0262927C5A9F400A262E5 /* User.swift in Sources */,
+				A3F0262627C5A91300A262E5 /* RepositoriesAPI.swift in Sources */,
+				A3F0261927C5A0D000A262E5 /* ListUsersViewController.swift in Sources */,
+				A3F0261027C59EBD00A262E5 /* TargetType.swift in Sources */,
+				A3F0261727C5A0D000A262E5 /* ListUsersPresenter.swift in Sources */,
+				A3F0261F27C5A51F00A262E5 /* BaseAPI.swift in Sources */,
+				A3F0262227C5A65100A262E5 /* RepositoriesNetworking.swift in Sources */,
+				A3F0262427C5A82100A262E5 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,33 +572,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A34F07E827C28DD500D52FA8 /* WelcomeView.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A34F07E727C28DD500D52FA8 /* Base */,
-				A34F07EA27C28DD700D52FA8 /* es */,
-			);
-			name = WelcomeView.xib;
-			sourceTree = "<group>";
-		};
-		A34F080C27C2A2F500D52FA8 /* LoginView.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A34F080B27C2A2F500D52FA8 /* Base */,
-				A34F080E27C2A2F700D52FA8 /* es */,
-			);
-			name = LoginView.xib;
-			sourceTree = "<group>";
-		};
-		A34F081127C2A34500D52FA8 /* RegisterView.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A34F081027C2A34500D52FA8 /* Base */,
-				A34F081327C2A34900D52FA8 /* es */,
-			);
-			name = RegisterView.xib;
-			sourceTree = "<group>";
-		};
 		A39CF06727C270C400DE5DD8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

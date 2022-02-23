@@ -61,7 +61,7 @@ extension ListUsersViewController: UITableViewDataSource {
         
         let userName = users[indexPath.row].name
         cell.userName.text = userName
-        let birthdate = users[indexPath.row].birthdate
+        let birthdate = users[indexPath.row].birthdate?.toDate()?.toString()
         cell.birthdayLabel.text = birthdate
         
         return cell

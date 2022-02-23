@@ -32,6 +32,7 @@
 		A3F0262927C5A9F400A262E5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F0262827C5A9F400A262E5 /* User.swift */; };
 		A3F0263027C5BC1700A262E5 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F0262E27C5BC1700A262E5 /* UserTableViewCell.swift */; };
 		A3F0263127C5BC1700A262E5 /* UserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3F0262F27C5BC1700A262E5 /* UserTableViewCell.xib */; };
+		A3F0263527C5CC4500A262E5 /* ExtensionsDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F0263427C5CC4500A262E5 /* ExtensionsDate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +85,7 @@
 		A3F0262827C5A9F400A262E5 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		A3F0262E27C5BC1700A262E5 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
 		A3F0262F27C5BC1700A262E5 /* UserTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserTableViewCell.xib; sourceTree = "<group>"; };
+		A3F0263427C5CC4500A262E5 /* ExtensionsDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionsDate.swift; sourceTree = "<group>"; };
 		B04D4848AAD7D062D8222C99 /* Pods-CoffeYei-CoffeYeiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeYei-CoffeYeiUITests.debug.xcconfig"; path = "Target Support Files/Pods-CoffeYei-CoffeYeiUITests/Pods-CoffeYei-CoffeYeiUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C3CB483089BF1A9B6D774D2E /* Pods-CoffeYeiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeYeiTests.release.xcconfig"; path = "Target Support Files/Pods-CoffeYeiTests/Pods-CoffeYeiTests.release.xcconfig"; sourceTree = "<group>"; };
 		E46FE76535CD5026555FCD0C /* Pods_CoffeYei_CoffeYeiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoffeYei_CoffeYeiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -204,6 +206,7 @@
 			isa = PBXGroup;
 			children = (
 				A34F07F927C2922200D52FA8 /* ExtensionsString.swift */,
+				A3F0263427C5CC4500A262E5 /* ExtensionsDate.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -531,6 +534,7 @@
 				A3F0262627C5A91300A262E5 /* RepositoriesAPI.swift in Sources */,
 				A3F0261927C5A0D000A262E5 /* ListUsersViewController.swift in Sources */,
 				A3F0261027C59EBD00A262E5 /* TargetType.swift in Sources */,
+				A3F0263527C5CC4500A262E5 /* ExtensionsDate.swift in Sources */,
 				A3F0261727C5A0D000A262E5 /* ListUsersPresenter.swift in Sources */,
 				A3F0261F27C5A51F00A262E5 /* BaseAPI.swift in Sources */,
 				A3F0262227C5A65100A262E5 /* RepositoriesNetworking.swift in Sources */,

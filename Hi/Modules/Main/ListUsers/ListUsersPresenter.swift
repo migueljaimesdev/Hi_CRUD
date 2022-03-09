@@ -55,7 +55,7 @@ extension ListUsersPresenter: ListUsersPresenterInput {
                 self.output.setUsers(users: users)
                 print(users)
             case .failure(_):
-                self.output.showAlert(title: "Error", message: "errorUserList".localized())
+                self.output.showAlert(title: "Error ", message: "errorUserList".localized())
             }
         })
     }
